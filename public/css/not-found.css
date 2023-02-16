@@ -1,0 +1,9 @@
+html{
+    text-align: center;
+    background-color: black;
+    color: white;
+    background-image: url(../img/cross.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}

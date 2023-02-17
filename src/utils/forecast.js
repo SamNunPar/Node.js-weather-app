@@ -20,8 +20,8 @@ const forecast = (longitud, latitud, callback) => {
           body.current.temperature +
           " degrees out, It feels like " +
           body.current.feelslike +
-          " degrees out." +
-          'hora de consulta' +
+          " degrees out. " +
+          'Hora de consulta: ' +
           body.current.observation_time
       );
     }

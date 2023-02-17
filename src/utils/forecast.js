@@ -15,14 +15,14 @@ const forecast = (longitud, latitud, callback) => {
     } else {
       callback(
         undefined,
-        body.current.weather_descriptions[0] +
-          ". Its currently " +
-          body.current.temperature +
-          " degrees out, It feels like " +
-          body.current.feelslike +
-          " degrees out. " +
-          'Hora de consulta: ' +
-          body.current.observation_time
+          {
+          weatherD:  body.current.weather_descriptions[0],
+          temperature: body.current.temperature,
+          feelslike : body.current.feelslike,
+          time: body.current.observation_time,
+          icon: body.current.weather_icons[0]
+          }
+
       );
     }
   });

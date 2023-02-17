@@ -8,16 +8,23 @@
         <video src="./img/Tierra.mp4" autoplay="true" muted="true" loop="true"></video>
         <section id="sc">
             {{>header}}
-            <p>Usa esto para buscar informacion del clima</p>
+            <p>Use this to look up weather information</p>
             <br>
             <form>
-                <input placeholder="Ubicacion" id="ubicacion">
-                <button>Buscar</button>
+                <input placeholder="Location" id="ubicacion">
+                <button>Search</button>
             </form>
+            <img id="wicon" src="">
+
+<section class="cola">
+            <p id="msg1" class="msg"></p>
+            <p id="msg2" class="msg"></p>
+            <p id="msg3" class="msg"></p>
+            <p id="msg4" class="msg"></p>
+            <p id="msg5" class="msg"></p>
             
-            <p id="msg1"></p>
-            <p id="msg2"></p>
             
+</section>
             <script>
                 window.watsonAssistantChatOptions = {
                 integrationID: "47c1eccd-cd39-4e44-af7f-993d558fba89", // The ID of this integration.

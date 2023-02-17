@@ -43,7 +43,11 @@ button{
     cursor: pointer;
 }
 
-#msg1, #msg2{
+.cola{
+    position: relative;
+}
+
+.msg{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 40px;
@@ -54,8 +58,15 @@ button{
     padding-top: 40px;
 }
 
-#msg2{
+#msg5{
     padding-bottom: 40px;
+}
+
+#wicon{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 13%;
+    width: 10%;
 }
 
 .center{

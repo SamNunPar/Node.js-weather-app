@@ -29,14 +29,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about', {
-    title: 'Sobre Mi',
+    title: 'About',
     name: 'Samuel Nungaray',
   });
 });
 
 app.get('/help', (req, res) => {
   res.render('help', {
-    title: 'Pagina de ayuda',
+    title: 'Help',
     name: 'Samuel Nungaray',
     helpText: 'Este es un texto de ayuda',
   });
